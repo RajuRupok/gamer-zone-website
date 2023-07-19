@@ -1,0 +1,93 @@
+
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    width: 1920px;
+    height: 130px;
+}
+
+.logo{
+    width: 86.041px;
+    height: 40px; 
+    padding-left: 220px;
+    padding-bottom: 90px;
+
+}
+
+.gamer{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin-right: 1900px; */
+    padding-bottom: 90px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav>ul {
+    padding-left: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding-bottom: 90px;
+    padding-right: 180x;
+}
+
+nav li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive media queries */
+/* mobile devices */
+
+@media screen and (max-width: 576px) {
+
+    header {
+        padding: 20px;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+}
